@@ -1,0 +1,37 @@
+.line{
+    margin: 10px;
+    width: 8%;
+    height: 4px;
+    background-color: #212529;
+}
+
+.sizeHeading{
+    font-size: 4rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+}
+
+input{
+        border: none transparent !important;
+        border-bottom: 1px solid #e9ecef !important;
+        margin: 3% 0%!important;
+        padding: 3% !important;
+}
+
+.form-control:focus{
+    border-color: transparent;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+
+}
+
+textarea{
+    border: none !important;
+    border-bottom: 1px solid #b8bdc1 !important;
+    margin: 3% 0%!important;
+    padding: 3% !important;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 19px;
+}

@@ -1,0 +1,29 @@
+.bg{
+    background-color: #1abc9c;
+}
+
+.line{
+    margin: 10px;
+    width: 8%;
+    height: 4px;
+    background-color: #fff;
+}
+
+
+.mr-auto{
+    margin-right: auto !important;
+}
+
+.ml-auto{
+    margin-left: auto !important;
+}
+
+p{
+    font-size: 20px;
+}
+
+.sizeHeading{
+    font-size: 4rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+}

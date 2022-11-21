@@ -1,0 +1,35 @@
+.content {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.layer{
+    background-color:rgba(41, 177, 151,0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+
+.content:hover .layer {
+    opacity: 1;
+}
+
+.line{
+    margin: 10px;
+    width: 8%;
+    height: 4px;
+    background-color: #212529;
+}
+
+.portfolio{
+    font-size: 4rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+}
+
+
+
+
